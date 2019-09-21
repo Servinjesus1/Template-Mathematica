@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     48016,       1105]
-NotebookOptionsPosition[     28405,        694]
-NotebookOutlinePosition[     45733,       1068]
-CellTagsIndexPosition[     45690,       1065]
+NotebookDataLength[     55240,       1289]
+NotebookOptionsPosition[     32698,        833]
+NotebookOutlinePosition[     51436,       1230]
+CellTagsIndexPosition[     51393,       1227]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -124,39 +124,129 @@ d35d8b63662d"],
 
 Cell[CellGroupData[{
 
-Cell["Section", "Section",
- CellChangeTimes->{{3.7632393984862123`*^9, 
-  3.763239401293366*^9}},ExpressionUUID->"35001cff-3203-4055-9783-\
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"ALT", "+", "1"}], ")"}], TraditionalForm]], "Section",
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5ceb0c76-f5bb-424e-9e34-86d0fab0ad98"],
+ " Section"
+}], "Section",
+ CellChangeTimes->{{3.7632393984862123`*^9, 3.763239401293366*^9}, {
+  3.7780940170648193`*^9, 
+  3.7780940315925856`*^9}},ExpressionUUID->"35001cff-3203-4055-9783-\
 24f9b03639d6"],
 
 Cell[CellGroupData[{
 
-Cell["Subsection", "Subsection",
- CellChangeTimes->{{3.7632394029130926`*^9, 
-  3.763239404602067*^9}},ExpressionUUID->"fdf49f89-33f5-40f7-a808-\
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"ALT", "+", "2"}], ")"}], TraditionalForm]], "Subsection",
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9b40a921-e8c7-4edf-b04f-4dee2e553651"],
+ " Subsection"
+}], "Subsection",
+ CellChangeTimes->{{3.7632394029130926`*^9, 3.763239404602067*^9}, {
+  3.77809402625292*^9, 
+  3.778094034594551*^9}},ExpressionUUID->"fdf49f89-33f5-40f7-a808-\
 8794140f3b10"],
 
 Cell[CellGroupData[{
 
-Cell["Part", "Subsubsection",
- CellChangeTimes->{{3.763239408148966*^9, 3.7632394112886176`*^9}, {
-   3.764553601271541*^9, 3.764553613007168*^9}, 
-   3.7645543814008293`*^9},ExpressionUUID->"d7643655-8b9f-4f74-a5ab-\
-199ef53d8965"],
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"ALT", "+", "3"}], ")"}], TraditionalForm]], "Subsubsection",
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d75723b2-c03e-4c01-8d86-df922f766e85"],
+ " Subsubsection"
+}], "Subsubsection",
+ CellChangeTimes->{{3.7780934068178263`*^9, 3.7780934096651745`*^9}, {
+  3.778094036844533*^9, 
+  3.7780940437101674`*^9}},ExpressionUUID->"e2bd2321-9268-437e-af46-\
+ca61e9abf51e"],
 
-Cell["Text", "Text",
- CellChangeTimes->{{3.763239434879765*^9, 
-  3.763239462088205*^9}},ExpressionUUID->"d5301840-9a45-4578-8025-\
-911160f05ff7"],
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"Alt", "+", "4"}], ")"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b126d353-bd95-411f-8289-954acfc74fba"],
+ " Subtext"
+}], "SubText",
+ CellChangeTimes->{{3.7780935413956165`*^9, 3.778093543214753*^9}, {
+  3.778094049161586*^9, 
+  3.7780940573527355`*^9}},ExpressionUUID->"b215a6b7-2223-4b27-82e0-\
+d51c4a19bdaa"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"Alt", "+", "5"}], ")"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ecf02199-69bd-415c-9a8a-c9f1d9b22590"],
+ " Text"
+}], "Text",
+ CellChangeTimes->{{3.7780934407450852`*^9, 3.778093441726455*^9}, {
+  3.778094061916467*^9, 
+  3.7780940681907034`*^9}},ExpressionUUID->"a2e248a1-0b39-4fea-a1ff-\
+0ea52d27ff3e"],
 
 Cell[BoxData[
- FormBox["EquationNumbered", TraditionalForm]], "DisplayFormulaNumbered",
+ FormBox[
+  RowBox[{
+  Cell["(Alt+6)",ExpressionUUID->"4be505c1-2732-4a29-a491-1dd6cae980fa"], " ",
+    "EquationNumbered"}], TraditionalForm]], "DisplayFormulaNumbered",
  CellChangeTimes->{
   3.714678068819209*^9, {3.7268515717265654`*^9, 3.7268515732674294`*^9}, {
    3.727644900857111*^9, 3.727644907058258*^9}, {3.7276473155676107`*^9, 
-   3.727647316699729*^9}, {3.763239419578188*^9, 
-   3.7632394228006835`*^9}},ExpressionUUID->"8be7ed22-78be-431e-8890-\
+   3.727647316699729*^9}, {3.778094075313634*^9, 
+   3.7780940850306745`*^9}},ExpressionUUID->"5d3412e8-3167-4be8-a8f8-\
+b957dc6252cc"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+  Cell["(Alt+7)",ExpressionUUID->"71aacec5-bbe9-4664-bfea-ae7f4287a84e"], " ",
+    "EquationUnNumbered"}], TraditionalForm]], "Equation",
+ CellChangeTimes->{
+  3.714678068819209*^9, {3.7268515717265654`*^9, 3.7268515732674294`*^9}, {
+   3.727644900857111*^9, 3.727644907058258*^9}, {3.7276473155676107`*^9, 
+   3.727647316699729*^9}, {3.763239419578188*^9, 3.7632394228006835`*^9}, {
+   3.778094089723096*^9, 
+   3.7780941054799395`*^9}},ExpressionUUID->"8be7ed22-78be-431e-8890-\
 a9513654cb0c"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+  Cell["(Alt+8)",ExpressionUUID->"6cbcf1dd-6565-4794-a211-26c0b5fa24e4"], " ",
+    "BoxedEquation"}], TraditionalForm]], "BoxEquation",
+ CellChangeTimes->{{3.7780941102980547`*^9, 
+  3.778094120570573*^9}},ExpressionUUID->"55d544bf-a49e-4971-8236-\
+665fa583cb63"],
+
+Cell[BoxData[
+ RowBox[{Cell[
+  "(Alt+9)",ExpressionUUID->"c4073dee-a204-4b76-9271-bedfbad0f6c5"], " ", 
+  "Code"}]], "Input",
+ CellChangeTimes->{{3.7780941247255154`*^9, 
+  3.7780941345930634`*^9}},ExpressionUUID->"fd327cf9-c35b-4632-97ff-\
+981351f9b610"],
+
+Cell[BoxData[
+ RowBox[{Cell[
+  "(Alt+`)",ExpressionUUID->"673175c8-05b7-45c1-a2ef-d6d1a2ddd1ec"], " ", 
+  "Preformatted", " ", "Code"}]], "Code",
+ CellChangeTimes->{{3.7780941402279916`*^9, 
+  3.7780941537438364`*^9}},ExpressionUUID->"c5670151-b815-4864-a4ba-\
+7f3c31ab4da7"],
 
 Cell[BoxData[
  FormBox[
@@ -668,34 +758,82 @@ Cell[BoxData["Output"], "Output",
 
 Cell[CellGroupData[{
 
-Cell[TextData[{
- Cell[BoxData[
-  FormBox[
-   RowBox[{"A", " "}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "e56d5aef-c33f-4028-a1f6-2bf339a2eb58"],
- "A ",
- Cell[BoxData[
-  FormBox["of", TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "49558284-1d70-43c2-909e-79de7babaf6b"],
- " of"
-}], "Section",
- CellChangeTimes->{{3.776558248051756*^9, 
-  3.776558271524865*^9}},ExpressionUUID->"647605cd-2ffd-44f7-8fc4-\
-bd5c5221bdbc"],
+Cell["2 - Numbering Test", "Section",
+ CellChangeTimes->{{3.778094401591258*^9, 3.778094403870163*^9}, {
+  3.7780944424948015`*^9, 
+  3.7780944453890953`*^9}},ExpressionUUID->"77df01f7-e16d-427d-9936-\
+38114a3bfb41"],
 
-Cell["Nope", "Subsection",
- CellChangeTimes->{{3.7765582767181106`*^9, 
-  3.7765582771578636`*^9}},ExpressionUUID->"dffd6bd1-6556-460e-85f4-\
-ecdf23d05dcb"]
+Cell[CellGroupData[{
+
+Cell["a", "Subsection",
+ CellChangeTimes->{
+  3.77809440588976*^9, {3.7780944466995554`*^9, 
+   3.778094447191245*^9}},ExpressionUUID->"19955087-990b-4d15-8133-\
+2348d0229530"],
+
+Cell["i", "Subsubsection",
+ CellChangeTimes->{
+  3.7780944100506325`*^9, {3.7780944484190063`*^9, 
+   3.778094448688282*^9}},ExpressionUUID->"b19357de-8b69-4ce5-8497-\
+2056a4420fa9"],
+
+Cell["ii", "Subsubsection",
+ CellChangeTimes->{{3.778094434211959*^9, 
+  3.778094450518378*^9}},ExpressionUUID->"c8b9950f-921d-47de-8f9c-\
+3717cd9b1475"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["b", "Subsection",
+ CellChangeTimes->{3.778094407399722*^9, 
+  3.778094451809935*^9},ExpressionUUID->"cbc435d9-fa09-4367-accc-\
+109c4514a522"],
+
+Cell["i", "Subsubsection",
+ CellChangeTimes->{3.7780944119475937`*^9, 
+  3.778094452978798*^9},ExpressionUUID->"2c2878de-1c26-4650-8b4b-\
+93f78e697212"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3 - Numbering Test", "Section",
+ CellChangeTimes->{{3.7780944163135242`*^9, 3.778094418289239*^9}, {
+  3.778094454481789*^9, 
+  3.7780944550183024`*^9}},ExpressionUUID->"807adf0d-53ed-4a22-8cb4-\
+281b287789e8"],
+
+Cell["i", "Subsubsection",
+ CellChangeTimes->{{3.7780944292971087`*^9, 
+  3.7780944567497077`*^9}},ExpressionUUID->"6aacb9f6-39a4-4d7a-a47c-\
+764769dee413"],
+
+Cell["ii", "Subsubsection",
+ CellChangeTimes->{{3.7780944615997105`*^9, 
+  3.7780944617194147`*^9}},ExpressionUUID->"68e0cb37-275d-44ff-87fc-\
+2e5a08c7d576"],
+
+Cell[CellGroupData[{
+
+Cell["a", "Subsection",
+ CellChangeTimes->{3.7780944222399826`*^9, 
+  3.7780944576921515`*^9},ExpressionUUID->"2e9979e9-3434-4b6f-b874-\
+93479d2566bb"],
+
+Cell["i", "Subsubsection",
+ CellChangeTimes->{{3.778094430709326*^9, 
+  3.7780944591003833`*^9}},ExpressionUUID->"6abfd00d-cdce-4631-92f5-\
+c04fcd991b19"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-ScreenStyleEnvironment->"Printout",
 WindowToolbars->"RulerBar",
 WindowSize->{1368, 829},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
 DockedCells->Cell[
   BoxData[
    DynamicModuleBox[{$CellContext`m$$ = 1}, 
@@ -747,7 +885,8 @@ PageHeaders->{{
     CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, 
    Cell[
     TextData[{
-      CounterBox["Page", CounterFunction :> Identity], " ", "of", " ", 
+      CounterBox["Page", CounterFunction :> FrontEnd`RomanNumeral], " ", "of",
+       " ", 
       CounterBox["LastPage", CounterFunction :> Identity]}], "Header", 
     CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
 PageFooters->{{
@@ -790,22 +929,16 @@ StyleDefinitions->Notebook[{
     StyleData[StyleDefinitions -> "Default_8.0.nb"], FontWeight -> "Plain", 
     Background -> None], 
    Cell[
-    CellGroupData[{
-      Cell[
-       StyleData["StandardForm"], 
-       CellMargins -> {{Inherited, Inherited}, {Inherited, Inherited}}, 
-       MenuSortingValue -> 10000, FontFamily -> "Consolas", FontSize -> 7, 
-       FontWeight -> "Plain", 
-       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
-       GridBoxOptions -> {AllowScriptLevelChange -> False}, 
-       LineSize -> {Inherited, Inherited}], 
-      Cell[
-       StyleData["Graphics", "Printout"], CellFrameColor -> 
-       GrayLevel[0.521569], 
-       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, FontFamily -> 
-       "LM Roman 12", FontSize -> 8, FontSlant -> Plain, Background -> None, 
-       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
-       GridBoxOptions -> {AllowScriptLevelChange -> False}]}, Open]], 
+    StyleData["Subsubtitle"], MenuSortingValue -> 9876, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["StandardForm"], 
+    CellMargins -> {{Inherited, Inherited}, {Inherited, Inherited}}, 
+    MenuSortingValue -> 10000, FontFamily -> "Consolas", FontSize -> 7, 
+    FontWeight -> "Plain", 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}, 
+    LineSize -> {Inherited, Inherited}], 
    Cell[
     StyleData["TraditionalForm"], 
     CellMargins -> {{Inherited, Inherited}, {Inherited, Inherited}}, 
@@ -814,25 +947,29 @@ StyleDefinitions->Notebook[{
     FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
     GridBoxOptions -> {
      AllowScriptLevelChange -> False, 
-      GridBoxAlignment -> {"Columns" -> {Right, {Center}, Left}}, 
+      GridBoxAlignment -> {
+       "Columns" -> {"\[AlignmentMarker]", {Center}, "\[AlignmentMarker]"}}, 
       GridBoxSpacings -> {"Columns" -> {{
-           Offset[0.1]}}, "Rows" -> {
+           Offset[0.6]}}, "Rows" -> {
           Offset[0.], {
            Offset[0.4]}, 
           Offset[0.]}}}, LineSize -> {Inherited, Inherited}], 
    Cell[
     CellGroupData[{
       Cell[
-       StyleData["Graphics"], CellFrameColor -> GrayLevel[0.521569], 
-       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, FontFamily -> 
-       "LM Roman 12", FontSize -> 8, FontWeight -> "Medium", FontSlant -> 
-       "Plain", 
-       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
-       Background -> None, 
-       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
-       GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+       StyleData["InputForm"], PageWidth -> WindowWidth, FontSize -> 8], 
+      Cell[
+       StyleData["InputForm", "Printout"], PageWidth -> PaperWidth, FontSize -> 
+       10], 
       Cell[
        StyleData[All, "Printout"], ShowSyntaxStyles -> True], 
+      Cell[
+       StyleData["Graphics", "Printout"], CellFrameColor -> 
+       GrayLevel[0.521569], 
+       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, FontFamily -> 
+       "LM Roman 12", FontSize -> 8, FontSlant -> Plain, Background -> None, 
+       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxOptions -> {AllowScriptLevelChange -> False}], 
       Cell[
        StyleData["Title", "Printout"], CellMargins -> {{24, 18}, {2, 0}}, 
        TextAlignment -> Center, TextJustification -> 0.25, MenuSortingValue -> 
@@ -856,7 +993,8 @@ StyleDefinitions->Notebook[{
           Cell[
            TextData[{
              CounterBox["Section"], " "}], "Section"], None}, {None, None}}, 
-       CellFrameLabelMargins -> {{0, 0}, {0, 0}}, TextAlignment -> Left, 
+       CellFrameLabelMargins -> {{0, 0}, {0, 0}}, DefaultNewInlineCellStyle -> 
+       "Section", TextAlignment -> Left, 
        CounterAssignments -> {{"DisplayFormulaNumbered", 0}, {
          "Subsection", 0}, {"Subsubsection", 0}}, MenuSortingValue -> 3, 
        MenuCommandKey -> "1", FontFamily -> "LM Roman 12", FontSize -> 14, 
@@ -866,27 +1004,41 @@ StyleDefinitions->Notebook[{
        CellMargins -> {{5, 0}, {2, 2}}, CellFrameMargins -> 1, 
        CellFrameLabels -> {{
           Cell[
-           TextData[{
-             CounterBox["Section"], ".", 
-             CounterBox["Subsection"], " "}], "Subsection"], None}, {
-         None, None}}, CellFrameLabelMargins -> 0, TextAlignment -> Left, 
-       MenuSortingValue -> 4, MenuCommandKey -> "2", FontFamily -> 
-       "LM Roman 12", FontSize -> 13, Background -> None], 
+           TextData[{"(", 
+             CounterBox["Subsection", CounterFunction :> (Part[
+                CharacterRange["a", "z"], #]& )], ") "}], "Subsection"], 
+          None}, {None, None}}, CellFrameLabelMargins -> 0, 
+       DefaultNewInlineCellStyle -> "Subsection", TextAlignment -> Left, 
+       CounterAssignments -> {{"DisplayFormulaNumbered", 0}, {
+         "Subsubsection", 0}}, MenuSortingValue -> 4, MenuCommandKey -> "2", 
+       FontFamily -> "LM Roman 12", FontSize -> 13, Background -> None], 
       Cell[
        StyleData["Subsubsection", "Printout"], CellDingbat -> None, 
        CellMargins -> {{10, 0}, {2, 2}}, CellFrameLabels -> {{
           Cell[
            TextData[{
-             CounterBox["Section"], ".", 
-             CounterBox["Subsection"], ".", 
-             CounterBox["Subsubsection"], " "}], "Subsection"], None}, {
-         None, None}}, TextAlignment -> Left, MenuSortingValue -> 5, 
-       MenuCommandKey -> "3", FontFamily -> "LM Roman 12", FontSize -> 13, 
-       FontWeight -> "Plain", Background -> None], 
+             CounterBox[
+             "Subsubsection", CounterFunction :> FrontEnd`RomanNumeral], 
+             ". "}], "Subsection"], None}, {None, None}}, 
+       DefaultNewInlineCellStyle -> "Subsubsection", TextAlignment -> Left, 
+       CounterAssignments -> {{"DisplayFormulaNumbered", 0}}, 
+       MenuSortingValue -> 5, MenuCommandKey -> "3", FontFamily -> 
+       "LM Roman 12", FontSize -> 13, FontWeight -> "Plain", Background -> 
+       None], 
       Cell[
-       StyleData["Text", "Printout"], CellMargins -> {{20, 10}, {0, 0}}, 
+       StyleData["SubText", "Printout"], CellDingbat -> None, 
+       CellMargins -> {{0, 0}, {2, -5}}, TextAlignment -> Center, 
+       MenuSortingValue -> 6, MenuCommandKey -> "4", FontFamily -> 
+       "LM Roman 12", FontSize -> 12, FontWeight -> "Plain", FontSlant -> 
+       "Italic", Background -> None], 
+      Cell[
+       StyleData["Text", "Printout"], CellMargins -> {{35, 10}, {0, 0}}, 
        MenuSortingValue -> 7, MenuCommandKey -> "5", FontFamily -> 
        "LM Roman 12", FontSize -> 12, Background -> None], 
+      Cell[
+       StyleData["Code", "Printout"], CellMargins -> {{35, 10}, {0, 0}}, 
+       MenuSortingValue -> 1000, MenuCommandKey -> "5", FontSize -> 12, 
+       Background -> None], 
       Cell[
        StyleData["DisplayFormulaNumbered", "Printout"], 
        CellMargins -> {{20, 0}, {2, 2}}, CellFrameMargins -> 2, 
@@ -920,9 +1072,8 @@ StyleDefinitions->Notebook[{
        StyleData["BoxEquation", "Printout"], 
        CellFrame -> {{0, 0}, {0.5, 0.5}}, CellMargins -> {{20, 0}, {2, 2}}, 
        CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
-       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, 
-       CellChangeTimes -> {3.714678068819209*^9}, TextAlignment -> Center, 
-       MenuSortingValue -> 10, MenuCommandKey -> "8", FontFamily -> 
+       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, TextAlignment -> 
+       Center, MenuSortingValue -> 10, MenuCommandKey -> "8", FontFamily -> 
        "LM Roman 12", Background -> None, 
        FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
        GridBoxOptions -> {AllowScriptLevelChange -> False}], 
@@ -941,6 +1092,12 @@ StyleDefinitions->Notebook[{
        FontSlant -> "Italic", Background -> None, 
        FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
        GridBoxOptions -> {AllowScriptLevelChange -> False}]}, Open]], 
+   Cell[
+    StyleData["Graphics"], CellFrameColor -> GrayLevel[0.521569], 
+    CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, FontFamily -> 
+    "LM Roman 12", FontSize -> 8, FontSlant -> Plain, Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}], 
    Cell[
     StyleData["Title"], CellMargins -> {{24, 18}, {2, 0}}, TextAlignment -> 
     Center, TextJustification -> 0.25, MenuSortingValue -> 1, MenuCommandKey -> 
@@ -963,36 +1120,49 @@ StyleDefinitions->Notebook[{
        Cell[
         TextData[{
           CounterBox["Section"], " "}], "Section"], None}, {None, None}}, 
-    CellFrameLabelMargins -> {{0, 0}, {0, 0}}, TextAlignment -> Left, 
-    CounterAssignments -> {{"DisplayFormulaNumbered", 0}}, MenuSortingValue -> 
-    3, MenuCommandKey -> "1", FontFamily -> "LM Roman 12", FontSize -> 14, 
-    Background -> None], 
+    CellFrameLabelMargins -> {{0, 0}, {0, 0}}, DefaultNewInlineCellStyle -> 
+    "Section", TextAlignment -> Left, 
+    CounterAssignments -> {{"DisplayFormulaNumbered", 0}, {"Subsection", 0}, {
+      "Subsubsection", 0}}, MenuSortingValue -> 3, MenuCommandKey -> "1", 
+    FontFamily -> "LM Roman 12", FontSize -> 15, Background -> None], 
    Cell[
     StyleData["Subsection"], CellDingbat -> None, 
     CellMargins -> {{5, 0}, {2, 2}}, CellFrameMargins -> 1, 
     CellFrameLabels -> {{
        Cell[
-        TextData[{
-          CounterBox["Section"], ".", 
-          CounterBox["Subsection"], " "}], "Subsection"], None}, {
-      None, None}}, CellFrameLabelMargins -> 0, TextAlignment -> Left, 
-    MenuSortingValue -> 4, MenuCommandKey -> "2", FontFamily -> "LM Roman 12",
-     FontSize -> 13, Background -> None], 
+        TextData[{"(", 
+          CounterBox["Subsection", CounterFunction :> (Part[
+             CharacterRange["a", "z"], #]& )], ") "}], "Subsection"], None}, {
+      None, None}}, CellFrameLabelMargins -> 0, DefaultNewInlineCellStyle -> 
+    "Subsection", TextAlignment -> Left, 
+    CounterAssignments -> {{"DisplayFormulaNumbered", 0}, {
+      "Subsubsection", 0}}, MenuSortingValue -> 4, MenuCommandKey -> "2", 
+    FontFamily -> "LM Roman 12", FontSize -> 14, Background -> None], 
    Cell[
     StyleData["Subsubsection"], CellDingbat -> None, 
     CellMargins -> {{10, 0}, {2, 2}}, CellFrameLabels -> {{
        Cell[
         TextData[{
-          CounterBox["Section"], ".", 
-          CounterBox["Subsection"], ".", 
-          CounterBox["Subsubsection"], " "}], "Subsection"], None}, {
-      None, None}}, TextAlignment -> Left, MenuSortingValue -> 5, 
-    MenuCommandKey -> "3", FontFamily -> "LM Roman 12", FontSize -> 13, 
-    FontWeight -> "Plain", Background -> None], 
+          CounterBox[
+          "Subsubsection", CounterFunction :> FrontEnd`RomanNumeral], ". "}], 
+        "Subsection"], None}, {None, None}}, DefaultNewInlineCellStyle -> 
+    "Subsubsection", TextAlignment -> Left, 
+    CounterAssignments -> {{"DisplayFormulaNumbered", 0}}, MenuSortingValue -> 
+    5, MenuCommandKey -> "3", FontFamily -> "LM Roman 12", FontSize -> 13, 
+    FontWeight -> "Bold", FontSlant -> "Plain", Background -> None], 
    Cell[
-    StyleData["Text"], CellMargins -> {{20, 10}, {0, 0}}, MenuSortingValue -> 
+    StyleData["SubText"], CellDingbat -> None, 
+    CellMargins -> {{0, 0}, {2, -5}}, TextAlignment -> Center, 
+    MenuSortingValue -> 6, MenuCommandKey -> "4", FontFamily -> "LM Roman 12",
+     FontSize -> 12, FontWeight -> "Plain", FontSlant -> "Italic", Background -> 
+    None], 
+   Cell[
+    StyleData["Text"], CellMargins -> {{35, 10}, {0, 0}}, MenuSortingValue -> 
     7, MenuCommandKey -> "5", FontFamily -> "LM Roman 12", FontSize -> 12, 
     Background -> None], 
+   Cell[
+    StyleData["Code"], CellMargins -> {{35, 10}, {0, 0}}, MenuSortingValue -> 
+    1000, MenuCommandKey -> "5", FontSize -> 12, Background -> None], 
    Cell[
     StyleData["DisplayFormulaNumbered"], CellMargins -> {{20, 0}, {2, 2}}, 
     CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
@@ -1007,31 +1177,29 @@ StyleDefinitions->Notebook[{
      3.714678068819209*^9, {3.7268515717265654`*^9, 3.7268515732674294`*^9}, {
       3.727644900857111*^9, 3.727644907058258*^9}, {3.7276473155676107`*^9, 
       3.727647316699729*^9}}, TextAlignment -> Center, MenuSortingValue -> 8, 
-    MenuCommandKey -> "6", FontFamily -> "LM Roman 12", Background -> None, 
+    MenuCommandKey -> "6", Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxAlignment -> {"Columns" -> {Right, {"="}, Left}}], 
+   Cell[
+    StyleData["Equation"], CellMargins -> {{20, 0}, {2, 2}}, CellFrameMargins -> 
+    2, CellFrameColor -> GrayLevel[0.521569], 
+    CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, 
+    CellChangeTimes -> {
+     3.714678068819209*^9, {3.744476664419689*^9, 3.744476667560291*^9}}, 
+    TextAlignment -> Center, MenuSortingValue -> 9, MenuCommandKey -> "7", 
+    FontFamily -> "LM Roman 12", Background -> None, 
     FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
     GridBoxOptions -> {AllowScriptLevelChange -> False}], 
    Cell[
-    CellGroupData[{
-      Cell[
-       StyleData["Equation"], CellMargins -> {{20, 0}, {2, 2}}, 
-       CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
-       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, 
-       CellChangeTimes -> {
-        3.714678068819209*^9, {3.744476664419689*^9, 3.744476667560291*^9}}, 
-       TextAlignment -> Center, MenuSortingValue -> 9, MenuCommandKey -> "7", 
-       FontFamily -> "LM Roman 12", Background -> None, 
-       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
-       GridBoxOptions -> {AllowScriptLevelChange -> False}], 
-      Cell[
-       StyleData["BoxEquation", "Printout"], 
-       CellFrame -> {{0, 0}, {0.5, 0.5}}, CellMargins -> {{20, 0}, {2, 2}}, 
-       CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
-       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, 
-       CellChangeTimes -> {3.714678068819209*^9}, TextAlignment -> Center, 
-       MenuSortingValue -> 10, MenuCommandKey -> "8", FontFamily -> 
-       "LM Roman 12", Background -> None, 
-       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
-       GridBoxOptions -> {AllowScriptLevelChange -> False}]}, Open]], 
+    StyleData["BoxEquation"], CellFrame -> {{0, 0}, {0.5, 0.5}}, 
+    CellMargins -> {{20, 0}, {2, 2}}, CellFrameMargins -> 2, CellFrameColor -> 
+    GrayLevel[0.521569], 
+    CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, TextAlignment -> 
+    Center, MenuSortingValue -> 10, MenuCommandKey -> "8", FontFamily -> 
+    "LM Roman 12", Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}], 
    Cell[
     StyleData["Input"], CellFrame -> {{0.5, 0.5}, {0.5, 0.5}}, 
     CellMargins -> {{20, 0}, {0, 2}}, CellFrameMargins -> {{10, 0}, {1, 0}}, 
@@ -1045,15 +1213,9 @@ StyleDefinitions->Notebook[{
     GrayLevel[0.521569], TextAlignment -> Left, MenuSortingValue -> 10000, 
     FontSlant -> "Italic", Background -> None, 
     FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
-    GridBoxOptions -> {AllowScriptLevelChange -> False}], 
-   Cell[
-    StyleData["Subsubtitle"], MenuSortingValue -> 9876, MenuCommandKey -> 
-    None], 
-   Cell[
-    StyleData["Code"], MenuSortingValue -> 1000, MenuCommandKey -> "`"]}, 
-  Visible -> False, FrontEndVersion -> 
-  "12.0 for Microsoft Windows (64-bit) (April 8, 2019)", StyleDefinitions -> 
-  "PrivateStylesheetFormatting.nb"],
+    GridBoxOptions -> {AllowScriptLevelChange -> False}]}, Visible -> False, 
+  FrontEndVersion -> "12.0 for Microsoft Windows (64-bit) (April 8, 2019)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
 PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
 ]
 (* End of Notebook Content *)
@@ -1077,34 +1239,56 @@ Cell[3112, 81, 1072, 24, 46, "Equation",ExpressionUUID->"f5ebc70d-46dc-4609-b0a3
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[4221, 110, 605, 12, 103, "Subtitle",ExpressionUUID->"d1188368-723a-4576-90ef-d35d8b63662d"],
+Cell[4221, 110, 605, 12, 105, "Subtitle",ExpressionUUID->"d1188368-723a-4576-90ef-d35d8b63662d"],
 Cell[CellGroupData[{
-Cell[4851, 126, 154, 3, 51, "Section",ExpressionUUID->"35001cff-3203-4055-9783-24f9b03639d6"],
+Cell[4851, 126, 426, 12, 54, "Section",ExpressionUUID->"35001cff-3203-4055-9783-24f9b03639d6"],
 Cell[CellGroupData[{
-Cell[5030, 133, 160, 3, 46, "Subsection",ExpressionUUID->"fdf49f89-33f5-40f7-a808-8794140f3b10"],
+Cell[5302, 142, 430, 12, 49, "Subsection",ExpressionUUID->"fdf49f89-33f5-40f7-a808-8794140f3b10"],
 Cell[CellGroupData[{
-Cell[5215, 140, 232, 4, 46, "Subsubsection",ExpressionUUID->"d7643655-8b9f-4f74-a5ab-199ef53d8965"],
-Cell[5450, 146, 146, 3, 34, "Text",ExpressionUUID->"d5301840-9a45-4578-8025-911160f05ff7"],
-Cell[5599, 151, 393, 7, 47, "DisplayFormulaNumbered",ExpressionUUID->"8be7ed22-78be-431e-8890-a9513654cb0c"],
-Cell[5995, 160, 1484, 40, 163, "DisplayFormulaNumbered",ExpressionUUID->"429f1a2c-1a23-407e-8301-68134492949e"],
+Cell[5757, 158, 444, 12, 49, "Subsubsection",ExpressionUUID->"e2bd2321-9268-437e-af46-ca61e9abf51e"],
+Cell[6204, 172, 413, 12, 29, "SubText",ExpressionUUID->"b215a6b7-2223-4b27-82e0-d51c4a19bdaa"],
+Cell[6620, 186, 407, 12, 35, "Text",ExpressionUUID->"a2e248a1-0b39-4fea-a1ff-0ea52d27ff3e"],
+Cell[7030, 200, 490, 10, 43, "DisplayFormulaNumbered",ExpressionUUID->"5d3412e8-3167-4be8-a8f8-b957dc6252cc"],
+Cell[7523, 212, 530, 11, 43, "Equation",ExpressionUUID->"8be7ed22-78be-431e-8890-a9513654cb0c"],
+Cell[8056, 225, 298, 7, 53, "BoxEquation",ExpressionUUID->"55d544bf-a49e-4971-8236-665fa583cb63"],
+Cell[8357, 234, 255, 6, 25, "Input",ExpressionUUID->"fd327cf9-c35b-4632-97ff-981351f9b610"],
+Cell[8615, 242, 275, 6, 49, "Code",ExpressionUUID->"c5670151-b815-4864-a4ba-7f3c31ab4da7"],
+Cell[8893, 250, 1484, 40, 175, "DisplayFormulaNumbered",ExpressionUUID->"429f1a2c-1a23-407e-8301-68134492949e"],
 Cell[CellGroupData[{
-Cell[7504, 204, 998, 26, 29, "Input",ExpressionUUID->"59760624-e3fd-46de-8e6b-e2b21d2b0685"],
-Cell[8505, 232, 15509, 320, 569, "Output",ExpressionUUID->"92b72b35-a607-4509-8eaa-de3b29ebabb4"]
+Cell[10402, 294, 998, 26, 33, "Input",ExpressionUUID->"59760624-e3fd-46de-8e6b-e2b21d2b0685"],
+Cell[11403, 322, 15509, 320, 537, "Output",ExpressionUUID->"92b72b35-a607-4509-8eaa-de3b29ebabb4"]
 }, Open  ]],
-Cell[24029, 555, 281, 6, 43, "Equation",ExpressionUUID->"8c2e1f9c-fcc4-4233-aaca-b4308a65b0f6"],
-Cell[24313, 563, 1340, 38, 163, "Equation",ExpressionUUID->"acfa6392-22bd-42ff-bef5-416df873cf80"],
-Cell[25656, 603, 223, 5, 53, "BoxEquation",ExpressionUUID->"199b3c2a-4eff-46ca-b57c-3d94c52d0ddb"],
-Cell[25882, 610, 1297, 38, 173, "BoxEquation",ExpressionUUID->"a44fdca4-58c1-4465-9b0f-991c9df656f0"],
+Cell[26927, 645, 281, 6, 43, "Equation",ExpressionUUID->"8c2e1f9c-fcc4-4233-aaca-b4308a65b0f6"],
+Cell[27211, 653, 1340, 38, 175, "Equation",ExpressionUUID->"acfa6392-22bd-42ff-bef5-416df873cf80"],
+Cell[28554, 693, 223, 5, 53, "BoxEquation",ExpressionUUID->"199b3c2a-4eff-46ca-b57c-3d94c52d0ddb"],
+Cell[28780, 700, 1297, 38, 185, "BoxEquation",ExpressionUUID->"a44fdca4-58c1-4465-9b0f-991c9df656f0"],
 Cell[CellGroupData[{
-Cell[27204, 652, 238, 4, 25, "Input",ExpressionUUID->"cd2d24eb-e38a-4bca-80c7-7f0fa648f49d"],
-Cell[27445, 658, 228, 4, 29, "Output",ExpressionUUID->"da1a8ee7-f2a6-47e0-85d8-18ff3b5478b6"]
+Cell[30102, 742, 238, 4, 25, "Input",ExpressionUUID->"cd2d24eb-e38a-4bca-80c7-7f0fa648f49d"],
+Cell[30343, 748, 228, 4, 29, "Output",ExpressionUUID->"da1a8ee7-f2a6-47e0-85d8-18ff3b5478b6"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[27746, 670, 472, 15, 51, "Section",ExpressionUUID->"647605cd-2ffd-44f7-8fc4-bd5c5221bdbc"],
-Cell[28221, 687, 156, 3, 46, "Subsection",ExpressionUUID->"dffd6bd1-6556-460e-85f4-ecdf23d05dcb"]
+Cell[30644, 760, 216, 4, 54, "Section",ExpressionUUID->"77df01f7-e16d-427d-9936-38114a3bfb41"],
+Cell[CellGroupData[{
+Cell[30885, 768, 176, 4, 49, "Subsection",ExpressionUUID->"19955087-990b-4d15-8133-2348d0229530"],
+Cell[31064, 774, 182, 4, 49, "Subsubsection",ExpressionUUID->"b19357de-8b69-4ce5-8497-2056a4420fa9"],
+Cell[31249, 780, 153, 3, 49, "Subsubsection",ExpressionUUID->"c8b9950f-921d-47de-8f9c-3717cd9b1475"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31439, 788, 147, 3, 49, "Subsection",ExpressionUUID->"cbc435d9-fa09-4367-accc-109c4514a522"],
+Cell[31589, 793, 152, 3, 49, "Subsubsection",ExpressionUUID->"2c2878de-1c26-4650-8b4b-93f78e697212"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31790, 802, 216, 4, 54, "Section",ExpressionUUID->"807adf0d-53ed-4a22-8cb4-281b287789e8"],
+Cell[32009, 808, 156, 3, 49, "Subsubsection",ExpressionUUID->"6aacb9f6-39a4-4d7a-a47c-764769dee413"],
+Cell[32168, 813, 157, 3, 49, "Subsubsection",ExpressionUUID->"68e0cb37-275d-44ff-87fc-2e5a08c7d576"],
+Cell[CellGroupData[{
+Cell[32350, 820, 151, 3, 49, "Subsection",ExpressionUUID->"2e9979e9-3434-4b6f-b874-93479d2566bb"],
+Cell[32504, 825, 154, 3, 49, "Subsubsection",ExpressionUUID->"6abfd00d-cdce-4631-92f5-c04fcd991b19"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
