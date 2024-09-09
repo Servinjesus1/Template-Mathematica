@@ -1,0 +1,5 @@
+- Wrong shortcut for code/text
+- Added mono fonts for LM, look pretty
+- Fixed equation counter resetting on sub/subsubsections. Doesn't make sense since only section numbers show up in these labels
+- Fix page indexing ii of 5, etc.
+- Updated font sizes for printout. Many cells derive fontsize directly from TraditionalForm and StandardForm

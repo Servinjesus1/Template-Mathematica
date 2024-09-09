@@ -1,0 +1,648 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     29023,        640]
+NotebookOptionsPosition[      7855,        221]
+NotebookOutlinePosition[     27644,        617]
+CellTagsIndexPosition[     27601,        614]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Title", "Title",
+ CellChangeTimes->{{3.7946635539413652`*^9, 3.794663559547741*^9}, {
+   3.796428018589731*^9, 3.796428020961218*^9}, 3.797865392907715*^9, {
+   3.8074664148540154`*^9, 3.807466431540865*^9}, {3.8074666084869075`*^9, 
+   3.807466609412713*^9}},ExpressionUUID->"38883a30-23e5-4480-8e23-\
+a624d228674b"],
+
+Cell[CellGroupData[{
+
+Cell["Spencer Fretwell", "Subtitle",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.794771132336647*^9, 3.794771161359297*^9}, {
+   3.7949204783654757`*^9, 3.794920482673952*^9}, 
+   3.796428014978098*^9},ExpressionUUID->"f84c205b-26fc-48d1-9047-\
+7c9afece1e0e"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{
+    RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+    RowBox[{"DockedCells", "\[Rule]", 
+     RowBox[{"Cell", "[", 
+      RowBox[{
+       RowBox[{"BoxData", "[", 
+        RowBox[{"ToBoxes", "[", 
+         RowBox[{"DynamicModule", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"m", "=", "1"}], "}"}], ",", 
+           RowBox[{"Panel", "[", 
+            RowBox[{
+             RowBox[{"Slider", "[", 
+              RowBox[{
+               RowBox[{"Dynamic", "[", 
+                RowBox[{"m", ",", 
+                 RowBox[{
+                  RowBox[{"SetOptions", "[", 
+                   RowBox[{
+                    RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+                    RowBox[{"Magnification", "\[Rule]", 
+                    RowBox[{"(", 
+                    RowBox[{"m", "=", "#"}], ")"}]}]}], "]"}], "&"}]}], "]"}],
+                ",", 
+               RowBox[{"{", 
+                RowBox[{"1", ",", "3.0"}], "}"}]}], "]"}], ",", 
+             "\"\<Magnification\>\""}], "]"}]}], "]"}], "]"}], "]"}], ",", 
+       "\"\<DockedCell\>\""}], "]"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"SetOptions", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+   RowBox[{"DockedCells", "\[Rule]", 
+    RowBox[{"Cell", "[", 
+     RowBox[{"BoxData", "[", 
+      RowBox[{"RowBox", "[", 
+       RowBox[{"ToBoxes", "/@", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"DynamicModule", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"m", "=", "1"}], "}"}], ",", 
+            RowBox[{"Panel", "[", 
+             RowBox[{
+              RowBox[{"Slider", "[", 
+               RowBox[{
+                RowBox[{"Dynamic", "[", 
+                 RowBox[{"m", ",", 
+                  RowBox[{
+                   RowBox[{"SetOptions", "[", 
+                    RowBox[{
+                    RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+                    RowBox[{"Magnification", "\[Rule]", 
+                    RowBox[{"(", 
+                    RowBox[{"m", "=", "#"}], ")"}]}]}], "]"}], "&"}]}], "]"}],
+                 ",", 
+                RowBox[{"{", 
+                 RowBox[{"1", ",", "3.0"}], "}"}]}], "]"}], ",", 
+              "\"\<Magnification\>\"", ",", "Top"}], "]"}]}], "]"}], ",", 
+          RowBox[{"DynamicModule", "[", 
+           RowBox[{
+            RowBox[{"{", "}"}], ",", 
+            RowBox[{"Panel", "[", 
+             RowBox[{
+              RowBox[{"Dynamic", "[", 
+               RowBox[{"TraditionalForm", "[", 
+                RowBox[{"Head", "[", 
+                 RowBox[{"CurrentValue", "[", "\"\<SelectionData\>\"", "]"}], 
+                 "]"}], "]"}], "]"}], ",", "\"\<Selection Head\>\""}], 
+             "]"}]}], "]"}]}], "}"}]}], "]"}], "]"}], "]"}]}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{"Plot", ",", 
+    RowBox[{"PlotStyle", "\[Rule]", 
+     RowBox[{"Thickness", "[", "0.004", "]"}]}], ",", 
+    RowBox[{"PlotTheme", "->", "\"\<Scientific\>\""}]}], "]"}], 
+  ";"}]}], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellChangeTimes->{{3.7211535606534195`*^9, 3.721153571159082*^9}, {
+  3.7211536429834237`*^9, 3.7211536444674435`*^9}, {3.7251541042267637`*^9, 
+  3.725154170640765*^9}, {3.7251542108690634`*^9, 3.7251542388627324`*^9}, {
+  3.764549263409563*^9, 3.764549322627664*^9}, {3.807466526564721*^9, 
+  3.8074665269908905`*^9}},ExpressionUUID->"07cfe820-a697-4478-a5d1-\
+60242ce2ba3d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"Alignment", " ", 
+   RowBox[{"Marker", "(", GridBox[{
+      {"\[Placeholder]", "\[Placeholder]"},
+      {"\[Placeholder]", "\[Placeholder]"}
+     },
+     GridBoxAlignment->{
+      "Columns" -> {{"\[AlignmentMarker]"}}, "ColumnsIndexed" -> {}, 
+       "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}], ")"}], "  ", 
+   RowBox[{"RightLeft", "(", GridBox[{
+      {"\[Placeholder]", "\[Placeholder]"},
+      {"\[Placeholder]", "\[Placeholder]"}
+     },
+     GridBoxAlignment->{
+      "Columns" -> {Left, Right}, "ColumnsIndexed" -> {}, 
+       "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}], ")"}]}], 
+  TraditionalForm]], "Equation",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.775584303471004*^9, 3.7755843730460157`*^9}, {
+   3.7755848975420866`*^9, 3.77558492254058*^9}, {3.7755850019754105`*^9, 
+   3.7755850690378375`*^9}, {3.775585140297598*^9, 3.7755851540518417`*^9}, {
+   3.775585229216163*^9, 3.775585269616519*^9}, 
+   3.7755854444913764`*^9},ExpressionUUID->"c5ecb388-23c1-4c09-b20c-\
+192f3b2218ee"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Section", "Section",
+ CellChangeTimes->{{3.8074661035247416`*^9, 3.8074661275259104`*^9}, {
+  3.807466672246585*^9, 
+  3.8074666744609027`*^9}},ExpressionUUID->"57c5384d-7390-42b7-ae05-\
+e16e480433cd"],
+
+Cell[CellGroupData[{
+
+Cell["Subsection", "Subsection",
+ CellChangeTimes->{{3.807466676421706*^9, 
+  3.8074666814525185`*^9}},ExpressionUUID->"07df5db0-9e75-4fa2-abef-\
+496a830d3387"],
+
+Cell[CellGroupData[{
+
+Cell["Subsubsection", "Subsubsection",
+ CellChangeTimes->{{3.807466683069133*^9, 
+  3.8074666851810026`*^9}},ExpressionUUID->"34f2df47-06bd-4d9d-ba1b-\
+d8682ed47cd2"],
+
+Cell["Context", "SubText",
+ CellChangeTimes->{{3.807466703652989*^9, 
+  3.8074667051334248`*^9}},ExpressionUUID->"e4dea9b8-2454-441e-863f-\
+610ac3db0290"],
+
+Cell["Text", "Text",
+ CellChangeTimes->{{3.807466708557844*^9, 
+  3.8074667098056746`*^9}},ExpressionUUID->"d564f54e-3da0-419d-b243-\
+d07a34197d65"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"DisplayFormula", " ", "Numbered"}], 
+  TraditionalForm]], "DisplayFormulaNumbered",
+ CellChangeTimes->{
+  3.714678068819209*^9, {3.7268515717265654`*^9, 3.7268515732674294`*^9}, {
+   3.727644900857111*^9, 3.727644907058258*^9}, {3.7276473155676107`*^9, 
+   3.727647316699729*^9}, {3.8074667117615004`*^9, 
+   3.8074667311252136`*^9}},ExpressionUUID->"993cb7f9-225e-4758-b67e-\
+a9965f678e5d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"DisplayFormula", " ", "Non"}], "-", "Numbered"}], 
+  TraditionalForm]], "Equation",
+ CellChangeTimes->{
+  3.714678068819209*^9, {3.744476664419689*^9, 3.744476667560291*^9}, {
+   3.807466724116799*^9, 
+   3.807466741485046*^9}},ExpressionUUID->"095433cb-bab0-4fe6-9f04-\
+9b0217581814"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"Boxed", " ", "Answer"}], TraditionalForm]], "BoxEquation",
+ CellChangeTimes->{{3.807466745149149*^9, 
+  3.8074667468052664`*^9}},ExpressionUUID->"c06e7c6f-c485-4f61-8004-\
+ca217d59d484"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{3440, 1357},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+DockedCells->Cell[
+  BoxData[
+   RowBox[{
+     DynamicModuleBox[{$CellContext`m$$ = 1}, 
+      TemplateBox[{
+        PanelBox[
+         SliderBox[
+          Dynamic[$CellContext`m$$, SetOptions[
+            EvaluationNotebook[], 
+            Magnification -> ($CellContext`m$$ = #)]& ], {1, 3.}]], 
+        "\"Magnification\""}, "Labeled", DisplayFunction -> (GridBox[{{
+           ItemBox[#2, DefaultBaseStyle -> "PanelLabel"]}, {
+           TagBox[
+            ItemBox[
+             PaneBox[
+              TagBox[#, "SkipImageSizeLevel"], 
+              Alignment -> {Center, Baseline}, BaselinePosition -> Baseline], 
+             DefaultBaseStyle -> "Labeled"], "SkipImageSizeLevel"]}}, 
+         GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+         AutoDelete -> False, 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+         BaselinePosition -> {2, 1}]& ), 
+       InterpretationFunction -> (RowBox[{"Labeled", "[", 
+          RowBox[{#, ",", 
+            RowBox[{"{", #2, "}"}], ",", 
+            RowBox[{"{", "Top", "}"}], ",", 
+            RowBox[{"DefaultLabelStyle", "\[Rule]", "\"PanelLabel\""}], ",", 
+            RowBox[{"LabelStyle", "\[Rule]", 
+              RowBox[{"{", "}"}]}], ",", 
+            RowBox[{"RotateLabel", "\[Rule]", "False"}], ",", 
+            RowBox[{"Spacings", "\[Rule]", "Automatic"}]}], "]"}]& )], 
+      DynamicModuleValues :> {}], 
+     DynamicModuleBox[{}, 
+      TemplateBox[{
+        PanelBox[
+         DynamicBox[
+          ToBoxes[
+           TraditionalForm[
+            Head[
+             CurrentValue["SelectionData"]]], StandardForm]]], 
+        "\"Selection Head\""}, "Labeled", DisplayFunction -> (GridBox[{{
+           
+           ItemBox[#2, Alignment -> {Left, Inherited}, DefaultBaseStyle -> 
+            "PanelLabel"]}, {
+           TagBox[
+            ItemBox[
+             PaneBox[
+              TagBox[#, "SkipImageSizeLevel"], 
+              Alignment -> {Center, Baseline}, BaselinePosition -> Baseline], 
+             DefaultBaseStyle -> "Labeled"], "SkipImageSizeLevel"]}}, 
+         GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+         AutoDelete -> False, 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+         BaselinePosition -> {2, 1}]& ), 
+       InterpretationFunction -> (RowBox[{"Labeled", "[", 
+          RowBox[{#, ",", 
+            RowBox[{"{", #2, "}"}], ",", 
+            RowBox[{"{", 
+              RowBox[{"{", 
+                RowBox[{"Top", ",", "Left"}], "}"}], "}"}], ",", 
+            RowBox[{"DefaultLabelStyle", "\[Rule]", "\"PanelLabel\""}], ",", 
+            RowBox[{"LabelStyle", "\[Rule]", 
+              RowBox[{"{", "}"}]}], ",", 
+            RowBox[{"RotateLabel", "\[Rule]", "False"}], ",", 
+            RowBox[{"Spacings", "\[Rule]", "Automatic"}]}], "]"}]& )], 
+      DynamicModuleValues :> {}]}]]],
+Magnification->1.608,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default_8.0.nb"], FontWeight -> "Plain", 
+    Background -> None], 
+   Cell[
+    StyleData["Subsubtitle"], MenuSortingValue -> 9876, MenuCommandKey -> 
+    None], 
+   Cell[
+    StyleData["StandardForm"], 
+    CellMargins -> {{Inherited, Inherited}, {Inherited, Inherited}}, 
+    MenuSortingValue -> 10000, FontFamily -> "LM Mono 12", FontSize -> 10, 
+    FontWeight -> "Plain", FontSlant -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}, 
+    LineSize -> {Inherited, Inherited}], 
+   Cell[
+    StyleData["TraditionalForm"], 
+    CellMargins -> {{Inherited, Inherited}, {Inherited, Inherited}}, 
+    MenuSortingValue -> 10000, FontFamily -> "LM Roman 17", FontSize -> 14, 
+    FontWeight -> "Plain", FontSlant -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {
+     AllowScriptLevelChange -> False, 
+      GridBoxAlignment -> {
+       "Columns" -> {"\[AlignmentMarker]", {Center}, "\[AlignmentMarker]"}}, 
+      GridBoxSpacings -> {"Columns" -> {{
+           Offset[0.6]}}, "Rows" -> {
+          Offset[0.], {
+           Offset[0.4]}, 
+          Offset[0.]}}}, LineSize -> {Inherited, Inherited}], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["InputForm"], PageWidth -> WindowWidth, FontFamily -> 
+       "LM Mono 12", FontSize -> 8, FontWeight -> "Plain", FontSlant -> 
+       "Plain", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["InputForm", "Printout"], PageWidth -> PaperWidth, FontSize -> 
+       10], 
+      Cell[
+       StyleData[All, "Printout"], ShowSyntaxStyles -> True], 
+      Cell[
+       StyleData["Graphics", "Printout"], CellFrameColor -> 
+       GrayLevel[0.521569], 
+       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, FontFamily -> 
+       "LM Roman 17", FontSize -> 8, FontSlant -> Plain, Background -> None, 
+       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+      Cell[
+       StyleData["Title", "Printout"], CellMargins -> {{24, 18}, {2, 0}}, 
+       TextAlignment -> Center, TextJustification -> 0.25, MenuSortingValue -> 
+       1, MenuCommandKey -> "", FontFamily -> "LM Roman 17", FontSize -> 18, 
+       FontWeight -> "Plain", Background -> None], 
+      Cell[
+       StyleData["Subtitle", "Printout"], CellFrame -> {{0, 0}, {1, 0}}, 
+       CellMargins -> {{50, 50}, {0, 1}}, CellFrameMargins -> 2, 
+       CellFrameStyle -> GrayLevel[0.4], TextAlignment -> Center, 
+       MenuSortingValue -> 2, MenuCommandKey -> "", FontFamily -> 
+       "LM Roman 17", FontSize -> 16, FontSlant -> "Italic", FontColor -> 
+       GrayLevel[0.4], Background -> None], 
+      Cell[
+       StyleData["Section", "Printout"], CellFrame -> {{0, 0}, {0, 0}}, 
+       CellMargins -> {{0, 0}, {0, 5}}, CellFrameMargins -> {{0, 0}, {0, 0}}, 
+       CellFrameStyle -> {{
+          GrayLevel[1.], 
+          GrayLevel[0.]}, {
+          GrayLevel[0.], 
+          GrayLevel[0.]}}, CellFrameLabels -> {{
+          Cell[
+           TextData[{
+             CounterBox["Section"], " "}], "Section"], None}, {None, None}}, 
+       CellFrameLabelMargins -> {{0, 0}, {0, 0}}, DefaultNewInlineCellStyle -> 
+       "Section", TextAlignment -> Left, 
+       CounterAssignments -> {{"DisplayFormulaNumbered", 0}, {
+         "Subsection", 0}, {"Subsubsection", 0}}, MenuSortingValue -> 3, 
+       MenuCommandKey -> "1", FontFamily -> "LM Roman 17", FontSize -> 16, 
+       Background -> None], 
+      Cell[
+       StyleData["Subsection", "Printout"], CellFrame -> {{0, 0}, {0, 2}}, 
+       CellDingbat -> None, CellMargins -> {{5, 0}, {2, 2}}, CellFrameMargins -> 
+       1, CellFrameColor -> GrayLevel[0.9], CellFrameLabels -> {{
+          Cell[
+           TextData[{"(", 
+             CounterBox["Subsection", CounterFunction :> (Part[
+                CharacterRange["a", "z"], #]& )], ") "}], "Subsection", 
+           CellFrame -> 0], None}, {None, None}}, CellFrameLabelMargins -> 0, 
+       DefaultNewInlineCellStyle -> "Subsection", TextAlignment -> Left, 
+       CounterAssignments -> {{"Subsubsection", 0}}, MenuSortingValue -> 4, 
+       MenuCommandKey -> "2", FontFamily -> "LM Roman 17", FontSize -> 15, 
+       Background -> None], 
+      Cell[
+       StyleData["Subsubsection", "Printout"], CellDingbat -> None, 
+       CellMargins -> {{10, 0}, {2, 2}}, CellFrameLabels -> {{
+          Cell[
+           TextData[{
+             CounterBox[
+             "Subsubsection", CounterFunction :> FrontEnd`RomanNumeral], 
+             ". "}], "Subsection"], None}, {None, None}}, 
+       DefaultNewInlineCellStyle -> "Subsubsection", TextAlignment -> Left, 
+       MenuSortingValue -> 5, MenuCommandKey -> "3", FontFamily -> 
+       "LM Roman 17", FontSize -> 15, Background -> None], 
+      Cell[
+       StyleData["SubText", "Printout"], CellFrame -> {{0, 0}, {2, 0}}, 
+       CellDingbat -> None, CellMargins -> {{15, 15}, {2, -5}}, 
+       CellFrameMargins -> {{0, 0}, {0, 0}}, CellFrameColor -> GrayLevel[0.9],
+        CellFrameStyle -> {}, DefaultNewCellStyle -> "SubText", 
+       DefaultInlineFormatType -> {"SubText", CellFrame -> 0}, TextAlignment -> 
+       Center, MenuSortingValue -> 6, MenuCommandKey -> "4", FontFamily -> 
+       "LM Roman 17", FontSize -> 12, FontWeight -> "Plain", FontSlant -> 
+       "Italic", Background -> None, 
+       GridBoxOptions -> {
+        AllowScriptLevelChange -> False, AllowedDimensions -> Fixed, 
+         GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{Automatic}}}}], 
+      Cell[
+       StyleData["Text", "Printout"], CellMargins -> {{35, 10}, {0, 0}}, 
+       MenuSortingValue -> 7, MenuCommandKey -> "5", FontFamily -> 
+       "LM Roman 17", FontSize -> 14, Background -> None], 
+      Cell[
+       StyleData["Code", "Printout"], CellMargins -> {{35, 10}, {0, 0}}, 
+       MenuSortingValue -> 1000, MenuCommandKey -> "`", FontSize -> 12, 
+       Background -> None], 
+      Cell[
+       StyleData["DisplayFormulaNumbered", "Printout"], 
+       CellMargins -> {{20, 0}, {2, 2}}, CellFrameMargins -> 2, 
+       CellFrameColor -> GrayLevel[0.521569], CellFrameLabels -> {{None, 
+          Cell[
+           TextData[{"( ", 
+             CounterBox["Section"], ".", 
+             CounterBox["DisplayFormulaNumbered"], " )"}], 
+           "DisplayFormulaNumbered"]}, {None, None}}, 
+       CommonDefaultFormatTypes -> {"Input" -> TraditionalForm}, 
+       CellChangeTimes -> {
+        3.714678068819209*^9, {3.7268515717265654`*^9, 
+         3.7268515732674294`*^9}, {3.727644900857111*^9, 
+         3.727644907058258*^9}, {3.7276473155676107`*^9, 
+         3.727647316699729*^9}}, TextAlignment -> Center, MenuSortingValue -> 
+       8, MenuCommandKey -> "6", FontSize -> 16, Background -> None, 
+       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxAlignment -> {"Columns" -> {Right, {"="}, Left}}], 
+      Cell[
+       StyleData["Equation", "Printout"], CellMargins -> {{20, 0}, {2, 2}}, 
+       CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
+       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, 
+       CellChangeTimes -> {
+        3.714678068819209*^9, {3.744476664419689*^9, 3.744476667560291*^9}}, 
+       TextAlignment -> Center, MenuSortingValue -> 9, MenuCommandKey -> "7", 
+       FontFamily -> "LM Roman 17", FontSize -> 16, Background -> None, 
+       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+      Cell[
+       StyleData["BoxEquation", "Printout"], 
+       CellFrame -> {{0, 0}, {0.5, 0.5}}, CellMargins -> {{20, 0}, {2, 2}}, 
+       CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
+       CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, TextAlignment -> 
+       Center, MenuSortingValue -> 10, MenuCommandKey -> "8", FontFamily -> 
+       "LM Roman 17", FontSize -> 16, Background -> None, 
+       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+      Cell[
+       StyleData["Input", "Printout"], CellFrame -> {{0.5, 0.5}, {0.5, 0.5}}, 
+       CellMargins -> {{20, 0}, {0, 2}}, 
+       CellFrameMargins -> {{10, 0}, {1, 0}}, CellFrameColor -> 
+       GrayLevel[0.521569], TextAlignment -> Left, 
+       LinebreakAdjustments -> {1, 1, 0.1, 0, 1}, MenuSortingValue -> 20, 
+       FontSize -> 14, FontWeight -> "Plain", Background -> 
+       RGBColor[0.9490196078431372, 0.9803921568627451, 1.]], 
+      Cell[
+       StyleData["Output", "Printout"], CellMargins -> {{40, 0}, {2, 4}}, 
+       CellFrameMargins -> {{10, 0}, {1, 0}}, CellFrameColor -> 
+       GrayLevel[0.521569], TextAlignment -> Left, MenuSortingValue -> 10000, 
+       FontSize -> 14, FontSlant -> "Italic", Background -> None, 
+       FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+       GridBoxOptions -> {AllowScriptLevelChange -> False}]}, Open]], 
+   Cell[
+    StyleData["Graphics"], CellFrameColor -> GrayLevel[0.521569], 
+    CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, FontFamily -> 
+    "LM Roman 17", FontSize -> 12, FontSlant -> Plain, Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+   Cell[
+    StyleData["Title"], CellMargins -> {{24, 18}, {2, 0}}, TextAlignment -> 
+    Center, TextJustification -> 0.25, MenuSortingValue -> 1, MenuCommandKey -> 
+    "", FontFamily -> "LM Roman 17", FontSize -> 24, FontWeight -> "Plain", 
+    Background -> None], 
+   Cell[
+    StyleData["Subtitle"], CellFrame -> {{0, 0}, {1, 0}}, 
+    CellMargins -> {{50, 50}, {0, 1}}, CellFrameMargins -> 2, CellFrameStyle -> 
+    GrayLevel[0.4], TextAlignment -> Center, MenuSortingValue -> 2, 
+    MenuCommandKey -> "", FontFamily -> "LM Roman 17", FontSize -> 16, 
+    FontSlant -> "Italic", FontColor -> GrayLevel[0.4], Background -> None], 
+   Cell[
+    StyleData["Section"], CellFrame -> {{0, 0}, {0, 0}}, 
+    CellMargins -> {{0, 0}, {0, 5}}, CellFrameMargins -> {{0, 0}, {0, 0}}, 
+    CellFrameStyle -> {{
+       GrayLevel[1.], 
+       GrayLevel[0.]}, {
+       GrayLevel[0.], 
+       GrayLevel[0.]}}, CellFrameLabels -> {{
+       Cell[
+        TextData[{
+          CounterBox["Section"], " "}], "Section"], None}, {None, None}}, 
+    CellFrameLabelMargins -> {{0, 0}, {0, 0}}, DefaultNewInlineCellStyle -> 
+    "Section", TextAlignment -> Left, 
+    CounterAssignments -> {{"DisplayFormulaNumbered", 0}, {"Subsection", 0}, {
+      "Subsubsection", 0}}, MenuSortingValue -> 3, MenuCommandKey -> "1", 
+    FontFamily -> "LM Roman 17", FontSize -> 15, Background -> None], 
+   Cell[
+    StyleData["Subsection"], CellFrame -> {{0, 0}, {0, 2}}, CellDingbat -> 
+    None, CellMargins -> {{5, 0}, {2, 2}}, CellFrameMargins -> 1, 
+    CellFrameColor -> GrayLevel[0.9], CellFrameLabels -> {{
+       Cell[
+        TextData[{"(", 
+          CounterBox["Subsection", CounterFunction :> (Part[
+             CharacterRange["a", "z"], #]& )], ") "}], "Subsection", 
+        CellFrame -> 0], None}, {None, None}}, CellFrameLabelMargins -> 0, 
+    DefaultNewInlineCellStyle -> "Subsection", TextAlignment -> Left, 
+    CounterAssignments -> {{"Subsubsection", 0}}, MenuSortingValue -> 4, 
+    MenuCommandKey -> "2", FontFamily -> "LM Roman 17", FontSize -> 14, 
+    Background -> None], 
+   Cell[
+    StyleData["Subsubsection"], CellDingbat -> None, 
+    CellMargins -> {{10, 0}, {2, 2}}, CellFrameLabels -> {{
+       Cell[
+        TextData[{
+          CounterBox[
+          "Subsubsection", CounterFunction :> FrontEnd`RomanNumeral], ". "}], 
+        "Subsubsection"], None}, {None, None}}, DefaultNewInlineCellStyle -> 
+    "Subsubsection", 
+    CellChangeTimes -> {{3.8074668684551964`*^9, 3.807466873117942*^9}}, 
+    TextAlignment -> Left, MenuSortingValue -> 5, MenuCommandKey -> "3", 
+    FontFamily -> "LM Roman 17", FontSize -> 13, FontWeight -> "Bold", 
+    FontSlant -> "Plain", Background -> None], 
+   Cell[
+    StyleData["SubText"], CellFrame -> {{0, 0}, {2, 0}}, CellDingbat -> None, 
+    CellMargins -> {{15, 15}, {2, -5}}, CellFrameMargins -> {{0, 0}, {0, 0}}, 
+    CellFrameColor -> GrayLevel[0.9], CellFrameStyle -> {}, 
+    DefaultNewCellStyle -> "SubText", 
+    DefaultNewInlineCellStyle -> {"SubText", CellFrame -> 0}, 
+    DefaultInlineFormatType -> {"SubText", CellFrame -> 0}, TextAlignment -> 
+    Center, MenuSortingValue -> 6, MenuCommandKey -> "4", FontFamily -> 
+    "LM Roman 17", FontSize -> 12, FontWeight -> "Plain", FontSlant -> 
+    "Italic", Background -> None, 
+    GridBoxOptions -> {
+     AllowScriptLevelChange -> False, AllowedDimensions -> Fixed, 
+      GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+      GridBoxItemSize -> {"Columns" -> {{Automatic}}}}], 
+   Cell[
+    StyleData["Text"], CellMargins -> {{35, 10}, {0, 0}}, MenuSortingValue -> 
+    7, MenuCommandKey -> "5", FontFamily -> "LM Roman 17", FontSize -> 12, 
+    Background -> None], 
+   Cell[
+    StyleData["Code"], CellMargins -> {{35, 10}, {0, 0}}, MenuSortingValue -> 
+    1000, MenuCommandKey -> "`", FontSize -> 12, Background -> None], 
+   Cell[
+    StyleData["DisplayFormulaNumbered"], CellMargins -> {{20, 0}, {2, 2}}, 
+    CellFrameMargins -> 2, CellFrameColor -> GrayLevel[0.521569], 
+    CellFrameLabels -> {{None, 
+       Cell[
+        TextData[{"( ", 
+          CounterBox["Section"], ".", 
+          CounterBox["DisplayFormulaNumbered"], " )"}], 
+        "DisplayFormulaNumbered"]}, {None, None}}, 
+    CommonDefaultFormatTypes -> {"Input" -> TraditionalForm}, 
+    CellChangeTimes -> {
+     3.714678068819209*^9, {3.7268515717265654`*^9, 3.7268515732674294`*^9}, {
+      3.727644900857111*^9, 3.727644907058258*^9}, {3.7276473155676107`*^9, 
+      3.727647316699729*^9}}, TextAlignment -> Center, MenuSortingValue -> 8, 
+    MenuCommandKey -> "6", Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxAlignment -> {"Columns" -> {Right, {"="}, Left}}], 
+   Cell[
+    StyleData["Equation"], CellMargins -> {{20, 0}, {2, 2}}, CellFrameMargins -> 
+    2, CellFrameColor -> GrayLevel[0.521569], 
+    CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, 
+    CellChangeTimes -> {
+     3.714678068819209*^9, {3.744476664419689*^9, 3.744476667560291*^9}}, 
+    TextAlignment -> Center, MenuSortingValue -> 9, MenuCommandKey -> "7", 
+    FontFamily -> "LM Roman 17", Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+   Cell[
+    StyleData["BoxEquation"], CellFrame -> {{0, 0}, {0.5, 0.5}}, 
+    CellMargins -> {{20, 0}, {2, 2}}, CellFrameMargins -> 2, CellFrameColor -> 
+    GrayLevel[0.521569], 
+    CommonDefaultFormatTypes -> {"Text" -> TraditionalForm}, TextAlignment -> 
+    Center, MenuSortingValue -> 10, MenuCommandKey -> "8", FontFamily -> 
+    "LM Roman 17", Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}], 
+   Cell[
+    StyleData["Input"], CellFrame -> {{0.5, 0.5}, {0.5, 0.5}}, 
+    CellMargins -> {{20, 0}, {0, 2}}, CellFrameMargins -> {{10, 0}, {1, 0}}, 
+    CellFrameColor -> GrayLevel[0.521569], TextAlignment -> Left, 
+    LinebreakAdjustments -> {1, 1, 0.1, 0, 1}, MenuSortingValue -> 20, 
+    FontSize -> 10, FontWeight -> "Plain", Background -> 
+    RGBColor[0.9490196078431372, 0.9803921568627451, 1.]], 
+   Cell[
+    StyleData["Output"], CellMargins -> {{40, 0}, {2, 4}}, 
+    CellFrameMargins -> {{10, 0}, {1, 0}}, CellFrameColor -> 
+    GrayLevel[0.521569], TextAlignment -> Left, MenuSortingValue -> 10000, 
+    FontSlant -> "Italic", Background -> None, 
+    FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+    GridBoxOptions -> {AllowScriptLevelChange -> False}]}, 
+  WindowSize -> {775, 872}, 
+  WindowMargins -> {{322, Automatic}, {234, Automatic}}, Visible -> False, 
+  FrontEndVersion -> "12.0 for Microsoft Windows (64-bit) (April 8, 2019)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 323, 5, 58, "Title",ExpressionUUID->"38883a30-23e5-4480-8e23-a624d228674b"],
+Cell[CellGroupData[{
+Cell[928, 31, 292, 5, 44, "Subtitle",ExpressionUUID->"f84c205b-26fc-48d1-9047-7c9afece1e0e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1223, 38, 3589, 89, 83, "Input",ExpressionUUID->"07cfe820-a697-4478-a5d1-60242ce2ba3d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True],
+Cell[4815, 129, 1072, 24, 59, "Equation",ExpressionUUID->"c5ecb388-23c1-4c09-b20c-192f3b2218ee",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5924, 158, 207, 4, 42, "Section",ExpressionUUID->"57c5384d-7390-42b7-ae05-e16e480433cd"],
+Cell[CellGroupData[{
+Cell[6156, 166, 160, 3, 43, "Subsection",ExpressionUUID->"07df5db0-9e75-4fa2-abef-496a830d3387"],
+Cell[CellGroupData[{
+Cell[6341, 173, 166, 3, 36, "Subsubsection",ExpressionUUID->"34f2df47-06bd-4d9d-ba1b-d8682ed47cd2"],
+Cell[6510, 178, 154, 3, 25, "SubText",ExpressionUUID->"e4dea9b8-2454-441e-863f-610ac3db0290"],
+Cell[6667, 183, 148, 3, 27, "Text",ExpressionUUID->"d564f54e-3da0-419d-b243-d07a34197d65"],
+Cell[6818, 188, 426, 9, 38, "DisplayFormulaNumbered",ExpressionUUID->"993cb7f9-225e-4758-b67e-a9965f678e5d"],
+Cell[7247, 199, 332, 9, 38, "Equation",ExpressionUUID->"095433cb-bab0-4fe6-9f04-9b0217581814"],
+Cell[7582, 210, 221, 5, 46, "BoxEquation",ExpressionUUID->"c06e7c6f-c485-4f61-8004-ca217d59d484"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
